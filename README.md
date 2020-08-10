@@ -13,4 +13,4 @@ It does not support:
 
 - text inclusion from query string
 
-Mine is deployed on GitHub Pages (but is connected to a custom domain as it doesn't understand subdirectories).
+Mine is deployed on GitHub Pages too (but is connected to a custom domain as it doesn't understand subdirectories).
