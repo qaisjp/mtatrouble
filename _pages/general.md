@@ -26,7 +26,7 @@ If you are having problems starting MTA try the following:
 
     b) During the install, change the default install directory to something unique i.e.
 
-        `"C:\Program Files\MTA San Andreas copy"`
+        "C:\Program Files\MTA San Andreas copy"
 
 3. Try the latest patch.
 
