@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<script type="text/javascript" src="https://unpkg.com/@ungap/url-search-params"></script>
+<script type="text/javascript">
+    (() => {
+        const urlParams = new URLSearchParams(window.location.search);
+        const page = urlParams.get('tr');
+        if (!page || !page.match(/^[a-z0-9\-]+$/i)) {
+            page = 'general';
+        }
+        window.location.replace('/' + page);
+    })()
+</script>

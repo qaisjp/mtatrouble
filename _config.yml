@@ -1,0 +1,21 @@
+repository: multitheftauto/updatesa
+
+plugins:
+- jekyll-github-metadata
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-sitemap
+- jemoji
+
+theme: minima
+
+collections:
+  pages:
+    output: true
+    permalink: "/:path"
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
